@@ -11,27 +11,27 @@ Feladatunk egy weboldal elkészítése volt, mely **3** témakörből szed, ille
 - Rostás András
 
 > Főoldal
-    - Szántó Richárd
-    - Varga Gergő
-    - Pálvölgyi Balázs
-    - Orosz Eszter
+- Szántó Richárd
+- Varga Gergő
+- Pálvölgyi Balázs
+- Orosz Eszter
 
 > IT: 
-    - Pályi Benedek
-    - Suhajda Zsolt
-    - Szomora Géza
-    - Gyikó Patrik
+- Pályi Benedek
+- Suhajda Zsolt
+- Szomora Géza
+- Gyikó Patrik
 
 > HTML, CSS, Boostrap: 
-    - Kozák Panni
-    - Szücs Szilárd
-    - Tasic Dejan
-    - Lázár Edvin
+- Kozák Panni
+- Szücs Szilárd
+- Tasic Dejan
+- Lázár Edvin
 
 > Python:
-    - Szuhi András
-    - Újlaki Balázs
-    - Vinklárik Péter
+- Szuhi András
+- Újlaki Balázs
+- Vinklárik Péter
 
 #
 BMSZC Verebély László Technikum
