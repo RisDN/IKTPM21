@@ -5,7 +5,7 @@ Feladatunk egy weboldal elkészítése volt, mely **3** témakörből szed, ille
 - Informatika és távközlés (IT)
 - HTMl, CSS, Boostrap (Webszerkesztés)
 - Python
-# Készítők
+# Készítők, feladatkörök
 
 > Projekt menedzser: 
 - Rostás András
