@@ -13,17 +13,17 @@ function hiddenbtn()
     }
 }
 
-var valami
+var szerver
 function hiddenbtn2()
 {
-    if(valami==1)
+    if(szerver==1)
     {
         document.getElementById("hidden2").style.display="none";
-        return valami=0;
+        return szerver=0;
     }
     else
     {
         document.getElementById("hidden2").style.display="inline";
-        return valami=1;
+        return szerver=1;
     }
 }
