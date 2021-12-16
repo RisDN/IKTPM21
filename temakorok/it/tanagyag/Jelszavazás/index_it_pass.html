@@ -18,6 +18,88 @@
     </header>
 
     <main>
+        <h3>CLI konfigurációs parancsok:</h1>
+           <h4->konfigáriós módok: <h4>
+        <table>
+            <tr>
+                <td>Megnevezés</td>
+                <td> Jele</td>
+                <td>Továbblépési parancs</td>
+            </tr>
+            <tr>
+                <th>User</th>
+                <th>></th>
+                <th>enable</th>
+            </tr>
+            <tr>
+                <th>Privilege</th>
+                <th>#</th>
+                <th>configure terminal (conf t)</th>
+            </tr>
+              <tr>
+                  <th>"Globális"Config</th>
+                  <th>(config)#</th>
+              </tr>
+                <tr>
+                    <th>Config-almódok</th>
+                    <th>(config.if)#</th>
+                </tr>     
+                <tr>
+                    <th></th>
+                    <th>(config.vlan)#</th>
+                </tr>       
+        </table>
+        <br>
+          <ul><li>Visszalépés - reload</li>
+          </ul>
+        <br>
+        <ul>
+            <h4>Interfészre való belépés - Globális config módban</h4>
+            <li>interface (interfész száma)</li>
+            <li>interface fa0/1</li>
+            <li>interface vlan 1</li>
+        </ul>
+        <ul>
+            <h4>Ip cím adás Interfész-config almódban</h4>
+            <li>ip address (ip cím) (maszk)</li>
+            <li>ip address 172.16.0.0 255.255.255.128</li>
+            <li>port bekapcsolás - no shutdown</li>
+            <li>port kikapcsolás - shutdown</li>
+        </ul>
+        <h4>több portra való belépés</h4>
+        <ul>
+            <li>interface range (port)-(port)</li>
+            <li>interface range fa0/5-fa0/10</li>
+            <li>interface range fa0/5,fa0/7,fa0/23</li>
+        </ul>
+        <h4>Futó konfiguráció mentése - Privilege módban</h4>
+        <ul>
+            <li>copy running-config startup-config</li>
+        </ul>
+        <h4>újraindítás - Privilege módban</h4>
+        <ul><li>reload</li></ul>
+        <h3>Jelszavazás:</h3>
+        <h4>Privilégizált módba továblépést gátló jelszó</h4>
+        <ul>
+            <li>sw(config)#enable password (jelszó)</li>
+            <li>sw(config)#enable password Almafa123</li>
+        </ul>
+        <h4>Console kapcsolat lejelszavazása</h4>
+        <ul>
+            <li>sw(config)#line console 0</li>
+            <li>sw(config)#password (jelszó)</li>
+            <li>sw(config)#login</li>
+            <h4>Távoli elérés lejelszavazása</h4>
+            <ul>
+                <li>sw(config)#line vty 0 15</li>
+                <li>sw(config)#password (jelszó)</li>
+                <li>sw(config)#login</li>
+            </ul>
+        </ul>
+
+
+
+
     </main>
 
     <nav id="nav">
