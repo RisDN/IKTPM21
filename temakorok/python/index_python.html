@@ -25,44 +25,52 @@
 
         </div>
     </header>
+    <section class="fejezet aktiv" id="fooldal">
+        <h1>Főoldal</h1>
+    </section>
 
-    <main>
-        <div class="">
-
-            <h2 style="color:rgb(123, 128, 123)">Mi is az a Python?</h2>
-            <h4>A Python napjainkban az egyik legismertebb programozási nyelv. Guido van Rossum hozta létre ezt a nyelvet 1991-ben.<br>
-                <br>Mire használjuk:</h4>
-            <ul>
-                <li>Web szerkeztés/fejlesztés</li>
-                <li>Szoftver fejlesztés</li>
-                <li>Matematikai egyenletek/feladatok megoldása</li>
-                <li>Rendszer írás</li>
-            </ul>
-            <h2 style="color:rgb(87, 90, 87)">(1.)Alapok</h2>
+    <section class="fejezet inaktiv" id="fejezet-1">
+        <h1>Első fejezet</h1>
+        <h2 style="color:rgb(87, 90, 87)">(1.)Alapok</h2>
             <h3>Ez az egyik legalapabb parancs a print:</h3>
             <h4>A print a legalapabb parancs ez "nyomtatja" a consoleba az adott szöveget amit ki akarsz irni</h4>
-            <img src="imgs_python/bevezetes.png"><br>
+            <img src="imgs/k1_Py.png"><br>
             <h3>Eredmény:</h3>
-            <img src="imgs_python/bevezetes1.png">
+            <img src="imgs/k2_Py.png">
             <h3>Kommentálás:</h3>
             <h4>Hogyha a kódok elé beírsz egy #-et akkor komment lesz belőle és így akár lehet szépíteni a kódokat meg ki is venni a rosszakat</h4>
-            <img src="imgs_python/kommentalas.png">
+            <img src="imgs/k3_Py.png">
             <h2 style="color:rgb(87, 90, 87)">(2.)Syntax</h2>
             <h3>Ez egy syntax:</h3>
             <h4>A "syntax" a kódsor elején lévő szóközökre vonatkozik és python nyelvben ez nagyon fontos</h4>
-            <img src="imgs_python/syntax.png"><br>
+            <img src="imgs/k4_Py.png"><br>
             <h3>Eredmény:</h3>
-            <img src="imgs_python/syntax1.png">
+            <img src="imgs/k5_Py.png">
             <h3>Előfordulhat hogy ezzel találod magad szembe:</h3>
             <h3>Ez nem más mint egy <span class="asd123">syntax error</span>:</h3>
             <h4>A "syntax error" akkor jön fel amikor a sor elején a szóközöket elrontod vagy nem teszel ":"-ot a sor végére ahol kell</h4>
-            <img src="imgs_python/syntax2.png"><br>
-            <img src="imgs_python/syntax4.png"><br>
+            <img src="imgs/k6_Py.png"><br>
+            <img src="imgs/k7_Py.png"><br>
+            <h3>Változók: </h3>
+            <h3>A változók adatok tárolására alkalmasak.</h3>
+            <h3>Pythonban adat nélküli változókat létrehozni nem lehet, kötelező valamilyen típusút megadni neki a létrehozásakor.</h3>
+            <h3></h3>
+    </section>
 
-            <h2 style="color:rgb(87, 90, 87)">(3.)Változók</h2>
+    <section class="fejezet inaktiv" id="fejezet-2">
+        <h1>harmadik fejezet</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, enim obcaecati dicta, odit aliquid temporibus architecto suscipit quis ex pariatur eos quidem. Aspernatur fugit fugiat nobis earum consequuntur aliquam deserunt.</p>
+    </section>
 
-        </div>
-    </main>
+    <section class="fejezet inaktiv" id="fejezet-3">
+        <h1>geci fejezet</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, enim obcaecati dicta, odit aliquid temporibus architecto suscipit quis ex pariatur eos quidem. Aspernatur fugit fugiat nobis earum consequuntur aliquam deserunt.</p>
+    </section>
+
+    <section class="fejezet inaktiv" id="fejezet-4">
+        <h1>geci fejezet</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, enim obcaecati dicta, odit aliquid temporibus architecto suscipit quis ex pariatur eos quidem. Aspernatur fugit fugiat nobis earum consequuntur aliquam deserunt.</p>
+    </section>
 
     <nav id="nav">
         <div class="innertube">
@@ -73,16 +81,14 @@
             <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
             <ul>
                 <center> <b>Sziasztok!</b> <br>Ezen az oldalon a Pythonról fogtok tudni olvasni, tanulni fejezetekre bontva.<br>
-                    <a href=""><button>Főoldal</button></a><br>
-                    <a href="fejezetek/1/index_1.html"><button>1. Fejezet</button></a><br>
-                    <a href="fejezetek/2/index_2.html"><button>2. Fejezet</button></a><br>
-                    <a href="fejezetek/3/index_3.html"><button>3. Fejezet</button></a><br>
+                    <button onclick="window.location.reload()">Főoldal</button></a><br>
+                    <div id="fejezet-gombok"></div>
                 </center>
             </ul>
         </div>
     </nav>
 
-
+<script src="fejezetek.js"></script>
 </body>
 
 </html>
