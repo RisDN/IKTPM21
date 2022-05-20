@@ -39,6 +39,7 @@
 		overflow: auto; 
 		background: rgba(255, 255, 255, 0.308);
 		margin: 15px;
+		width: fit-content;
 	}
 	
 	.innertube{
